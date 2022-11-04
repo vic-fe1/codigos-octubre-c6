@@ -1,0 +1,39 @@
+/*
+ESTILOS UNIVERSALES / GENERALES 
+*/
+
+/* selectores: etiqueta (body) de clase (.titulo) de id (#header) */
+
+body {
+    background-color: #e5e5e5;
+    /* Las tipografías llevan valores de FALLBACK, esto significa que si el usuario no tiene esa tipografía, se usará la siguiente */
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.titulo {
+    background-color: #C4C4C4;
+    color: #005677;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* IMPORTAR TIPOGRAFIA DESDE GOOGLE FONTS */
+
+/*
+ESTILOS DEL HEADER
+*/
+
+/* este es el selector de ID. selecciona un elemento */
+#titulo-principal {
+    font-size: 35px;
+}
+
+
+
+

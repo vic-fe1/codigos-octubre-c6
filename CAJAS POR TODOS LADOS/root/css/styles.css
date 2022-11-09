@@ -1,0 +1,49 @@
+/* ESTILOS GENERALES */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+}
+
+.caja {
+    display: inline-block;
+    background-color: #894444;
+    /* WIDTH ES EL ANCHO DEL ELEMENTO y HEIGHT ES EL ALTO */
+    width: 800px;
+    height: 1200px;
+    /* MARGIN ES EL ESPACIO ENTRE EL ELEMENTO Y OTRO */ 
+    margin: 20px 40px 10px 50px;
+    /* PADDING ES EL ESPACIO ENTRE EL CONTENIDO Y EL BORDE */ 
+    padding: 15px 30px;
+    /* BORDER INDICA EL LIMITE ENTRE EL INTERIOR Y EL EXTERIOR DEL ELEMENTO */
+    border: 5px solid #000;
+    text-align: center;
+    position: relative;
+}
+
+
+.burger {
+    /* % SIGNIFICA OCUPA ESE PORCENTAJE DE TU CONTENEDOR */
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 24px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}

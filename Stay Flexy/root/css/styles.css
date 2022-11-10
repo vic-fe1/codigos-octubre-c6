@@ -1,0 +1,56 @@
+/* ESTILOS GENERALES */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-flex {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.caja {
+    background-color: #894444;
+    /* WIDTH ES EL ANCHO DEL ELEMENTO y HEIGHT ES EL ALTO */
+    width: 400px;
+    height: 600px;
+    /* MARGIN ES EL ESPACIO ENTRE EL ELEMENTO Y OTRO */ 
+    margin: 5px;
+    /* PADDING ES EL ESPACIO ENTRE EL CONTENIDO Y EL BORDE */ 
+    padding: 15px 30px;
+    /* BORDER INDICA EL LIMITE ENTRE EL INTERIOR Y EL EXTERIOR DEL ELEMENTO */
+    border: 5px solid #000;
+    text-align: center;
+    position: relative;
+}
+
+#caja-premium {
+    border: 2px solid #d6c02e;
+    position: relative;
+    bottom: 20px;
+}
+
+.burger {
+    /* % SIGNIFICA OCUPA ESE PORCENTAJE DE TU CONTENEDOR */
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 24px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}

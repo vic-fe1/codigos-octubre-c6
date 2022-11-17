@@ -1,0 +1,43 @@
+/* ESTILO HEADER 1 */
+
+.container-header {
+    /* VIEWPORT HEIGHT -> ALTURA DE LA PANTALLA */ 
+    height: 10vh;
+    background-color: #f0ede8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header img {
+    height: 70%;
+    margin: 0 15px;
+}
+
+.container-header nav {
+    width: 40%;
+    margin: 0 15px;
+}
+
+.lista {
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.lista a {
+    margin: 0 20px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.fa-burger {
+    visibility: hidden;
+}
+/* CTRL + K ... +  C */ 
+
+/* ESTILO HEADER 2 */
+
+/* .container-header-2 {
+
+} */

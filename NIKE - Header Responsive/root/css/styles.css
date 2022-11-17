@@ -1,0 +1,22 @@
+/* ESTILOS GENERALES */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS DE CONTENEDORES */
+
+.flex {
+    display: flex;
+}
+
+
+
+/* MEDIA QUERY */ 
+/* MAX-WIDTH: HASTA */
+/* MIN-WIDTH: A PARTIR DE */
+@media screen and (max-width: 700px) {
+/* HACER QUE SE VAYA EL NAV, QUE DESAPAREZCA y HACER APARECER EL MENU HAMBURGUESA */
+}

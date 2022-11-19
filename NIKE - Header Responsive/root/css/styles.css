@@ -1,22 +1,65 @@
-/* ESTILOS GENERALES */ 
+/* ESTILOS GENERALES */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* ESTILOS DE CONTENEDORES */
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
+main {
+  height: 90vh;
+}
 
+/* ESTILO DE LA CARD */
 
-/* MEDIA QUERY */ 
+.card {
+  /*VIEWPORT WIDTH */
+  
+  width: 50vw;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px 5px rgba(0,0,0, .5);
+}
+
+.img-card {
+  /* % es relativo al contenedor padre */
+  width: 50%;
+  border-radius: 5px 0 0 5px;
+}
+
+.contenido {
+width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido h2 {
+    padding: 25px;
+}
+
+.contenido p {
+    padding: 20px;
+}
+.contenido button {
+    padding: 10px 32px;
+    background-color: aquamarine;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+/* MEDIA QUERY */
 /* MAX-WIDTH: HASTA */
 /* MIN-WIDTH: A PARTIR DE */
-@media screen and (max-width: 700px) {
-/* HACER QUE SE VAYA EL NAV, QUE DESAPAREZCA y HACER APARECER EL MENU HAMBURGUESA */
+@media screen and (max-width: 1000px) {
+  /* HACER QUE SE VAYA EL NAV, QUE DESAPAREZCA y HACER APARECER EL MENU HAMBURGUESA */
+  /* QUE LA CARD TENGA LA IMAGEN ARRIBA Y EL CONTENIDO ABAJO.*/
+
+
+
 }

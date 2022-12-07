@@ -1,0 +1,36 @@
+/* DRY | Separation of Concerns */ 
+
+/* Don't repeat yourself -> NO TE REPITAS */ 
+
+/* Separation of concerns -> separación de intereses o separación de términos */
+
+/* VARIABLES -> guardo un valor en una palabra */ 
+$color-principal: #567561;
+$color-secundario: #4949ff;
+/* NESTING -> Anidamiento */ 
+
+.container-texto {
+    h2 {
+    color: $color-principal;
+    }
+    p {
+        color: $color-secundario;
+    }
+}
+
+.container {
+    height: 250px;
+    border: 1px solid #000;
+    margin: 50px;
+    &-texto {
+        @extend .container;
+        background-color: $color-principal;
+    }
+    &-boton {
+        @extend .container;
+        background-color: $color-secundario;
+        border: 2px solid $color-principal;
+    }
+}
+
+/* MIXINS & PARTIALS */ 

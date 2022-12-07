@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* DRY | Separation of Concerns */
+/* Don't repeat yourself -> NO TE REPITAS */
+/* Separation of concerns -> separación de intereses o separación de términos */
+/* VARIABLES -> guardo un valor en una palabra */
+/* NESTING -> Anidamiento */
+.container-texto h2 {
+  color: #567561;
+}
+.container-texto p {
+  color: #4949ff;
+}
+
+.container, .container-boton, .container-texto {
+  height: 250px;
+  border: 1px solid #000;
+  margin: 50px;
+}
+.container-texto {
+  background-color: #567561;
+}
+.container-boton {
+  background-color: #4949ff;
+  border: 2px solid #567561;
+}
+
+/* MIXINS & PARTIALS *//*# sourceMappingURL=main.css.map */
